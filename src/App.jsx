@@ -11,7 +11,7 @@ export default function App() {
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage }}>
-      <BrowserRouter basename="/Medbuddy">
+      <BrowserRouter basename="/MedBuddy">
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
