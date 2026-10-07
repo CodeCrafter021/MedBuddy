@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/Medbuddy/' : '/',
+  base: command === 'build' ? '/MedBuddy/' : '/',
   plugins: [
     react(),
     tailwindcss(),
